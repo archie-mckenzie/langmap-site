@@ -1,0 +1,27 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  line-height: 2;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  font-size: large;
+}
+
+main {
+  min-height: calc(100vh - 200px);
+}
+
+.copy {
+  text-align: left;
+}
+
+.mono {
+  font-family: monospace;
+}
